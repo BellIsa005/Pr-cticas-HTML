@@ -1,0 +1,23 @@
+body{
+	font-size: 19px;
+}
+
+#luno{
+	list-style-type: none;
+}
+
+#ldos{
+	list-style-type: circle;
+}
+
+#ltres{
+	list-style-type: square;
+}
+
+#lfour{
+	list-style-type: lower-roman;
+}
+
+#lfive{
+	list-style-type: lower-greek;
+}

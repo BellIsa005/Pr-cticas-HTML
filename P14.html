@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 14</title>
+</head>
+<body>
+	<h1>iDESWEB</h1>
+	<h2>Formulario de registro</h2>
+
+<form name="Register Form" method="post">
+	<div>
+		<h3>¿Quién eres?</h3>
+		<ul>
+			<li>
+				<label>Nombres</label><br> 
+				<input type="text" name="name">
+			</li>
+			<li>
+				<label>Apellidos</label><br> 
+				<input type="text" name="lastname">
+			</li>
+			<li>
+				<label>Correo electrónico</label><br> 
+				<input type="email" name="email">
+			</li>
+			<li>
+				<label>Fecha de nacimiento</label><br> 
+				<input type="date" name="borndate">
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h3>¿De dónde eres?</h3>
+		<ul>
+			<li>
+				<label>Ciudad</label><br> 
+				<input type="text" name="city">
+			</li>
+			<li>
+				<label>Código postal</label><br> 
+				<input type="text" name="postal">
+			</li>
+			<li>
+				<label>País</label><br> 
+				<select name="country">
+					<option value="v1">Bolivia</option>
+					<option value="v2">Argentina</option>
+					<option value="v3">Perú</option>
+					<option value="v4">Brazil</option>		
+				</select>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h3>¿Cómo quieres iniciar seción?</h3>
+		<ul>
+			<li>
+				<label>Nombre de usuario</label><br> 
+				<input type="text" name="user">
+			</li>
+			<li>
+				<label>Contraseña</label><br> 
+				<input type="password" name="newcont">
+			</li>
+			<li>
+				<label>Vuelve a escribir la contraseña</label><br> 
+				<input type="password" name="repcont"> 
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h3>Condiciones de registro</h3>
+		<ul>
+			<li>
+				<label>Deseo recibir ofertas de iDESWEB</label><br> 
+				<input type="radio" name="botton1" value="oned">Una vez al día
+				<input type="radio" name="botton1" value="onew">Una vez a la semana
+				<input type="radio" name="botton1" value="onem">Una vez al mes
+			</li>
+			<li>
+				<input type="radio" name="accept" required>Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies.
+			</li>
+		</ul>
+	</div>	
+	<button type="submit" value="Send">Crear cuenta</button>
+
+</form>
+</body>
+</html>
