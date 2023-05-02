@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/p15.css">
+	<title>Práctica 15</title>
+</head>
+<body>
+	<h1>Formulario de registro</h1>
+<div id="divform">
+	<div>
+		<h2>Nombres y Apellidos</h2>
+	</div>
+	<div>
+		<form>
+		<table>
+			<tr>
+				<td><input type="text" name="Name"></td>
+			</tr>
+			<tr>	
+				<td><label>Nombre</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="Last Name"></td>
+			</tr>
+			<tr>
+				<td><label>Primer Apellido</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="Second Last Name"></td>
+			</tr>
+			<tr>
+				<td><label>Segundo Apellido</label></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	<div>
+		<h2>Dirección</h2>
+	</div>
+	<div>
+		<form>
+		<table>
+			<tr>
+			<td><input type="text" name="Adress"></td>
+			</tr>
+			<tr>
+			<td><label>Zona, avenida, calle, número</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="Postal" id="postal"></td>
+				<td><input type="text" name="Town" id="town"></td>
+			</tr>
+			<tr>	
+				<td><label for="postal">Código Postal</label></td>
+				<td><label for="town">Municipio</label></td>
+			</tr>
+			<tr>
+				<td>
+					<select name="Provincia" id="provincia">
+					<option value="pd1">Murillo</option>
+					<option value="pd2">Yungas</option>
+					<option value="pd3">Viacha</option>
+					</select>	
+				</td>
+				<td>
+					<select name="country" id="country">
+					<option value="cd1">Bolivia</option>
+					<option value="cd2">Argentina</option>
+					<option value="cd3">Perú</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="Provincia">Provincia</label></td>
+				<td><label for="country">País</label></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	<div>
+		<h2>Email</h2>
+	</div>
+	<div>
+		<form>
+		<input type="email" name="Email">
+		</form>
+	</div>
+	<div>
+		<h2>Teléfono</h2>
+	</div>
+	<div>
+		<form>
+		<table>
+			<tr>
+				<td><input type="text" name="fijo" id="fijo"></td>
+				<td><input type="text" name="movil" id="movil"></td>
+			</tr>
+			<tr>	
+				<td><label for="fijo">Fijo</label></td>
+				<td><label for="movil">Móvil</label></td>
+			</tr>
+		</table>
+		</form>	
+	</div>
+</div>
+</body>
+</html>
