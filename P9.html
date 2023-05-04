@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 9</title>
+
+	<style type="text/css">
+		ul{
+			list-style-type: none;
+			padding-left: 10px;
+		}
+		li{
+			padding-bottom: 8px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Formulario de registro</h1>
+	<form>
+		<ul>
+			<li><label for="name">Nombre:</label>
+			<input type="text" name="name" id="name"></li>
+			<li><label for="lastname">Apellidos:</label>
+			<input type="text" name="lastname" id="lastname"></li>
+			<li><label for="genre">Sexo:</label>
+			<input type="radio" name="genre" value="1">Hombre
+			<input type="radio" name="genre" value="2">Mujer</li>
+			<li><label for="email">Correo:</label>
+			<input type="email" name="email" id="email"></li>
+			<li><input type="checkbox" name="wish" required >Deseo recibir información sobre novedades y ofertas.</li>
+			<li><input type="checkbox" name="accept" required >Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</li>			
+		</ul>
+		<button type="submit" value="Send">Enviar</button>
+	</form>
+</body>
+</html>

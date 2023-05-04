@@ -1,5 +1,5 @@
 div{
-	margin-top: 40px;
+	margin-top: 20px;
 	border: 2px solid black;
 	transition: background-color .9s;
 }
@@ -46,7 +46,8 @@ label{
 }
 
 button{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	height: 30px;
 	width: 100px;
 }

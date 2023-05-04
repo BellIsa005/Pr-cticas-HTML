@@ -1,0 +1,50 @@
+h1{
+	text-align: center;
+	font-family: cursive;
+}
+
+@media (max-width: 600px){
+  	#element1 ul {
+   		padding-left: 0;
+  	}	
+
+  	#element1 li {
+    	display: inline;
+  	}
+  
+  	#element1 li:after {
+    	content: "; ";
+  	}
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+	#field{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 10px;
+	}
+
+	#element3{
+		grid-column: span 2;
+	}
+
+	#element3 ul{
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	#element3 li{
+		float: left;
+		width: 30%;
+	}
+}
+
+@media (min-width: 1200px){
+	#field{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 10px;
+	}
+}

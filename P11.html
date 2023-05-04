@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 9</title>
+
+	<style type="text/css">
+		ul{
+			list-style-type: none;
+			padding-left: 10px;
+		}
+		li{
+			padding-bottom: 8px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Formulario de registro</h1>
+	<form method="get" action="">
+		<ul>
+			<li><label for="name">Nombre:</label>
+			<input type="text" name="name" id="name"></li>
+
+			<li><label for="email">Correo:</label>
+			<input type="email" name="email" id="email"></li>
+
+			<li><label for="url">URL:</label>
+			<input type="url" name="url" id="url" placeholder="Escriba la URL de su página"></li>
+
+			<li><label for="fecha">Fecha:</label>
+			<input type="date" name="fecha" id="fecha"></li>
+
+			<li><label for="time">Tiempo:</label>
+			<input type="time" name="time" id="time"></li>
+
+			<li><label for="url">Fecha y hora:</label>
+			<input type="date" name="date" id="date">UTC
+			<input type="time" name="time" id="time"></li>
+
+			<li><label for="mes">Mes:</label>
+			<input type="month" name="mes" id="mes"></li>
+
+			<li><label for="semana">Semana:</label>
+			<input type="week" name="semana" id="semana"></li>
+
+			<li><label for="num">Número (min-10, max 10):</label>
+			<input type="number" name="fecha" id="fecha" min="-10" max="10"></li>
+
+			<li><label for="telefono">Teléfono:</label>
+			<input type="tel" name="telefono" id="telefono"></li>
+
+			<li><label for="busqueda">Término de búsqueda:</label>
+			<input type="search" name="busqueda" id="busqueda"></li>
+
+			<li><label for="color">Color favorito:</label>
+			<input type="color" name="color" id="color"></li>
+					
+		</ul>
+		<button type="submit" value="Send">Enviar</button>
+	</form>
+</body>
+</html>
